@@ -332,8 +332,8 @@ cite p{
 @media (max-width: 630px){
 
     .background-principal{
-        min-height: 100vh; /* Garante que o fundo cubra a altura da tela */
-        min-width: 100%; /* Garante que o fundo cubra a largura da tela */
+        min-height: 100vh; 
+        min-width: 100%; 
     }
 
     .main-bg{
@@ -424,12 +424,10 @@ cite p{
 
     .background-principal{
         width: 100%;
-        background-size: contain;
     }
 
     .main-bg{
         height: 100vh;
-        
     }
 
     .flex-section-one{
@@ -658,8 +656,6 @@ cite p{
         padding-left: 2rem;
     }
 
-
-
     .main-content{
         padding-top: 1rem;
         padding-left: 1rem;
@@ -670,8 +666,6 @@ cite p{
         font-size: 1.5rem;
         line-height: 2.5rem;
     }
-
-  
 
     .image-container{
         display: inline;
