@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Kombitha</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/js/scripts.js">
+
+</head>
+
+
+<body>
+    <input id="close-menu" class="close-menu" type="checkbox" aria-label="Close menu" role="button" aria-pressed="true">
+    <label class="close-menu-label" for="close-menu" title="close menu"></label>
+    
+    <aside class="menu">
+        <div class="menu-content">
+            <div class="div-logo">
+                <img src="/assets/img/logo.png" alt="kombi">
+                <h1>Kombitha</h1>
+            </div>
+            <div class="espaco"></div>
+            <nav>
+                <ul>
+                    <li class="menu-item"><a href="#HOME">Home</a></li>
+                    <li class="menu-item"><a href="#POEMAS">Poemas</a></li>
+                    <li class="menu-item"><a href="#">Livros</a></li>
+                    <li class="menu-item"><a href="#">Sobre Nós</a></li>
+                    <li class="menu-item"><a href="#">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </aside>
+    
+    <section class="background-principal" id="HOME">
+        <div class="flex-section-one">
+            <div class="container-principal">
+                <div class="titulo-container">
+                    <h2> Seja bem-vindo à Kombitha Literária</h2>
+                </div>
+                <div class="text-container">
+                    <p>
+                        Descubra um mundo de histórias, conhecimento e inspiração, 
+                        onde quer que você esteja! Nossa livraria ambulante é mais 
+                        do que um ponto de venda de livros, é uma experiência 
+                        literária que chega até você.
+                    </p>
+                </div>
+                <div class="li-descricao">
+                    <p>
+                        📚 Explorar nosso acervo: Encontre desde os clássicos até os lançamentos mais esperados. <br>
+                        📍 Acompanhar nossa rota: Veja onde nossa livraria estará estacionada e planeje sua visita. <br>
+                        🛒 Comprar online: Reserve seu livro favorito para retirar em nossa próxima parada ou receber no conforto de sua casa. <br>
+                        💡 Dicas e eventos: Fique por dentro de lançamentos, promoções e eventos literários em sua região. <br>
+                    </p>
+                </div>
+            </div>
+                <div class="cont-imagem">
+                    <img src="/assets/img/kombi.png" alt="kombi_colorida">
+                </div>
+        </div>
+    </section>
+
+    <section class="main-bg" id="POEMAS">
+        <div class="main-content">
+            <h2 class="main-content">
+                Conheça um pouco mais sobre os nossos poemas:
+            </h2>
+        </div>
+        <div class="image-container">
+            <div>
+                <a href="/siriema.html"><img class="img-poemas" src="assets/img/ilustracoes/siriema.png" alt="img_siriema"></a>
+            </div>
+
+            <div>
+                <a href="/inhambu.html"><img class="img-poemas" src="assets/img/ilustracoes/inhambu.png" alt="img_inhambu"></a>
+            </div>
+            <div>
+                <a href="/AraraCanide.html"><img class="img-poemas" src="assets/img/ilustracoes/arara.png" alt="img_arara_canide"></a>
+            </div>
+            <div>
+                <a href="/RolinhaDoPlanalto.html"><img class="img-poemas" src="assets/img/ilustracoes/Rolinha.png" alt="img_rolinhaDoPlanalto"></a>
+            </div>
+            <div>
+                <a href="/TamanduaMirin.html"><img class="img-poemas" src="assets/img/ilustracoes/tamanduaMirim.png" alt="img_tamandua"></a>
+            </div>
+        </div>
+    </section>
+
+
+    <script>
+    document.addEventListener("DOMContentLoaded", () => {
+        const menuItems = document.querySelectorAll('.menu-item'); // Seleciona todos os itens de menu
+        const closeMenuCheckbox = document.getElementById('close-menu'); // Seleciona o checkbox do menu
+    
+        menuItems.forEach(item => {
+            item.addEventListener('click', () => {
+                // Desmarcar o checkbox para fechar o menu
+                closeMenuCheckbox.checked = false;
+            });
+        });
+    });
+    </script>
+</body>
+
+</html>
