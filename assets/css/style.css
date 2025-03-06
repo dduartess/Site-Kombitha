@@ -798,4 +798,85 @@ cite p {
         flex-direction: column;
         align-items: center;
     }
+
+    @media (max-width: 300px) {
+        .background-principal {
+            max-width: 100%;
+        }
+    
+        .main-bg {
+            min-height: 100vh;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+    
+        .flex-section-one {
+            justify-content: center;
+            align-items: center;
+            display: inline;
+        }
+    
+        .container-principal {
+            padding-top: 8rem;
+            padding-left: 2rem;
+            max-width: 150px;
+        }
+    
+        .titulo-container h2 {
+            font-size: 1.5rem;
+            line-height: 2.8rem;
+        }
+    
+        .text-container {
+            max-width: 150px;
+            padding-top: 1rem;
+        }
+    
+        .text-container p {
+            font-size: 1rem;
+        }
+    
+        .li-descricao {
+            padding-top: 1rem;
+            max-width: 150px;
+        }
+    
+        .li-descricao p {
+            font-size: 1rem;
+            line-height: 1.5rem;
+        }
+    
+        .cont-imagem {
+            padding-top: 2rem;
+            justify-content: center;
+            align-items: center;
+        }
+    
+        .cont-imagem img {
+            max-width: 70%;
+            padding-left: 2rem;
+        }
+    
+        .main-content {
+            padding-top: 1rem;
+            padding-left: 1rem;
+            max-width: 150px;
+        }
+    
+        .main-content h2 {
+            font-size: 1.5rem;
+            line-height: 2.5rem;
+        }
+    
+        .image-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    
+        .image-container2 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
 }
