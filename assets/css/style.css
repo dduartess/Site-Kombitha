@@ -82,8 +82,6 @@ html {
 .background-principal {
     background-image: url(/assets/img/dragon-scales.svg);
     min-height: 100vh;
-    background-size: cover;
-    background-repeat: no-repeat; /* Evita repetição do fundo */
 }
 
 /* LOGO DO MENU */
@@ -186,6 +184,7 @@ html {
     margin-right: 5rem;
 }
 
+
 .img-poemas:hover {
     transform: scale(1.1); /* Aumenta a imagem ao passar o mouse */
 }
@@ -196,6 +195,13 @@ html {
     justify-content: center; /* Centraliza as imagens horizontalmente */
     align-items: center; /* Centraliza verticalmente */
     padding-bottom: 10rem;
+}
+
+.image-container2 {
+    display: flex; /* Usando flexbox para alinhar os itens em linha */
+    justify-content: center; /* Centraliza as imagens horizontalmente */
+    margin-top: -5rem;
+    padding-bottom: 5rem;
 }
 
 /* CLASSE POEMA */
@@ -324,6 +330,11 @@ cite p {
         flex-direction: column;
         align-items: center;
     }
+    .image-container2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
     .img-poemas {
         max-width: 250px;
@@ -378,6 +389,11 @@ cite p {
     }
 
     .text-container {
+        max-width: 25rem;
+        padding-top: 1rem;
+    }
+
+    .text-container2 {
         max-width: 25rem;
         padding-top: 1rem;
     }
@@ -584,6 +600,12 @@ cite p {
         align-items: center;
     }
 
+    .image-container2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
     .img-poemas {
         width: 130px;
         margin-left: auto;
@@ -682,6 +704,12 @@ cite p {
         align-items: center;
     }
 
+    .image-container2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
     .img-poemas {
         max-width: 150px;
         margin-left: auto;
@@ -764,3 +792,10 @@ cite p {
         flex-direction: column;
         align-items: center;
     }
+
+    .image-container2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
