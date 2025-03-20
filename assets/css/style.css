@@ -144,7 +144,7 @@ html {
 
 /* TITULO DA SEGUNDA PAGINA */
 .main-content {
-    padding-top: 4rem;
+    padding-top: 3rem;
     padding-left: 2.5rem;
     width: 800px;
 }
@@ -174,14 +174,14 @@ html {
 .img-poemas {
     background: rgba(255, 255, 255, 0.1); /* Fundo branco semi-transparente */
     backdrop-filter: blur(10px); /* Aplica um desfoque no fundo */
-    border-radius: 10px; /* Bordas arredondadas */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave para dar efeito de profundidade */
-    max-width: 250px;
-    max-height: 250px;
-    margin-top: 2rem;
+    border-radius: 180px; /* Bordas arredondadas */
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1); /* Sombra suave para dar efeito de profundidade */
+    max-width: 350px;
+    max-height: 350px;
     transition: transform 300ms ease-in-out; /* Codigo animação da foto */
     float: left;
-    margin-right: 5rem;
+    margin-right: 3rem;
+    padding: -1rem;
 }
 
 
@@ -191,7 +191,7 @@ html {
 
 .image-container {
     display: flex; /* Usando flexbox para alinhar os itens em linha */
-    margin-top: 5rem; /* Margem superior para o contêiner */
+    margin-top: 3rem; /* Margem superior para o contêiner */
     justify-content: center; /* Centraliza as imagens horizontalmente */
     align-items: center; /* Centraliza verticalmente */
     padding-bottom: 10rem;
@@ -200,7 +200,7 @@ html {
 .image-container2 {
     display: flex; /* Usando flexbox para alinhar os itens em linha */
     justify-content: center; /* Centraliza as imagens horizontalmente */
-    margin-top: -5rem;
+    margin-top: -10rem;
     padding-bottom: 5rem;
 }
 
